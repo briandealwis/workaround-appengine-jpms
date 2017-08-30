@@ -36,21 +36,11 @@
       <version>1.2</version>
     </dependency>
 
-    <!-- provides javax.json.binding -->
+    <!-- shaded uberjar that provides javax.json.binding -->
     <dependency>
-      <groupId>javax.json.bind</groupId>
-      <artifactId>javax.json.bind-api</artifactId>
-      <version>1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse</groupId>
-      <artifactId>yasson</artifactId>
-      <version>1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish</groupId>
-      <artifactId>javax.json</artifactId>
-      <version>1.1</version>
+      <groupId>com.example.workaround.jpms</groupId>
+      <artifactId>eclipse-yasson-uberjar</artifactId>
+      <version>0.1.0-SNAPSHOT</version>
     </dependency>
 
     <!-- Test Dependencies -->
