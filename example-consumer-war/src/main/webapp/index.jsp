@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%@page import="javax.json.Json"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- [START_EXCLUDE] -->
 <%--
@@ -25,6 +26,7 @@
 <body>
     <h1>Hello App Engine -- Standard!</h1>
 
+  <p>This is <%= Json.createArrayBuilder() %>.</p>
   <table>
     <tr>
       <td colspan="2" style="font-weight:bold;">Available Servlets:</td>

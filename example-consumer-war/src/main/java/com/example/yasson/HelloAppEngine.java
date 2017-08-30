@@ -10,6 +10,7 @@ public class HelloAppEngine extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response) 
       throws IOException {
       
+    javax.json.Json.createArrayBuilder();
     response.setContentType("text/plain");
     response.getWriter().print("Hello App Engine!\r\n");
 
